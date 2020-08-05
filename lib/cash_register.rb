@@ -17,12 +17,12 @@ class CashRegister
   #   @total
   # end
 
-  def add_item(title, price, quantity = 1)
-    # @original_total = @total
-    @total = @total + price * quantity
-    @items << title
-    # @quantity = quantity
-  end
+  # def add_item(title, price, quantity = 1)
+  #   # @original_total = @total
+  #   @total = @total + price * quantity
+  #   @items << title
+  #   # @quantity = quantity
+  # end
 
   def add_item(title, amount, quantity=1)
   self.total += amount * quantity
